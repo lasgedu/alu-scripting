@@ -5,7 +5,7 @@ import requests
 
 def number_of_subscribers(subreddit):
     """"Doc"""
-    URL = "https://www.reddit.com/r/{}/about.json".format(subreddit)
+    URL = "https://www.reddit.com/r/stag12/about.json".format(subreddit)
 
     my_headers = {
         "User-Agent": "LetsGo/0.1 (by u/lasgedu)"
